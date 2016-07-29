@@ -1,3 +1,5 @@
 markdown: redcarpet
 baseurl: ""
 exclude: ['README.md']
+title: Marco A. Peyrot
+description: My personal website and portfolio.
