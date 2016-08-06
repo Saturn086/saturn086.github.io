@@ -1,3 +1,7 @@
 .navbar {
     height: 52px;
 }
+
+.navbar-collapse {
+    background-color: white;
+}
