@@ -18,7 +18,9 @@
             "bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="{% if page.url == '/' %}active{% endif %}">
-                <a href="{{site.baseurl}}/">HO</a></li>
+                    <a href="{{site.baseurl}}/">
+                        <span class="glyphicon glyphicon-home
+                        " aria-hidden="true"></span></a></li>
                 
                 {% assign page_titles =
                 "Skills Projects Education Experience" | split: ' ' %}
