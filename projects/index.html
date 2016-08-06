@@ -3,5 +3,23 @@ layout: default
 title: My Projects 
 ---
 
-These are my projects.
+<h1>{{page.title}}</h1>
+<hr>
+
+{% for project in site.data.projects %}
+    <div class="description">
+        <div class="description-content">
+            <div class="description-header">
+                <a href="{{site.baseurl}}/projects/{{project.source}}/">
+                {{project.title}}</a>
+            </div>
+            {{project.description}}
+        </div>
+        <div class="description-image">
+            <a href="{{site.baseurl}}/projects/{{project.source}}/">
+                <img src="{{site.baseurl}}/images/{{project.image}}"/></a>
+        </div>
+    </div>
+{% endfor %}
+
 

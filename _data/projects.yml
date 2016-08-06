@@ -1,0 +1,15 @@
+- title: No Way Out
+  source: survival_sp_game.html
+  image: no_way_out.png
+  description: A single-player survival videogame developed for...
+  institution: ITESM 
+  tools: [Java]
+  date: April – May 2015
+
+- title: Eventos Tec 
+  source: event_promotion_website.html
+  image: tec_mty.jpg
+  description: An event promotion website developed for...
+  institution: ITESM
+  tools: [Ruby, Rails]
+  date: January – May 2015
