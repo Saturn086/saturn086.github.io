@@ -1,23 +1,74 @@
-- title: No Way Out
-  source: survival_sp_game.html
-  image: no_way_out.png
-  description: A single-player survival videogame developed for...
-    fff     ggggg       gggggg      gggggg      gggggg      gggggggg        ggggggg
-    ggggggg gggggggg        gggggggggg      gggggggggggggggg
-    <br>
-    ghghg
-    <br>
-    hfhfhf
-    <br>
-    jgjgjg
-  institution: ITESM 
-  tools: [Java]
-  date: April – May 2015
+-   title: Eventos Tec
+    source: event-promotion-website.html
+    image: tec_mty.jpg
+    description: This project involved the development
+        of an event promotion website for the database course
+        (<a
+        href="https://serviciosva.itesm.mx/PlanesEstudio/Consultas/Materias/ConsultaMaterias.aspx?Form=Consultar_Materias_SinteticoIng&ClaveMateria=TC1020">TC1020</a>).
+        In order to raise the level of difficulty,
+        the professor chose my team to collaborate with a
+        team from 9<sup>th</sup> semester in their final project.
+        Our task was to develop the internal structure and database
+        of their website. Therefore, I took
+        on the role of Scrum Master, programmer and
+        quality manager for half of the team.
+        The website is currently running on one of the
+        university's servers and the source code can be viewed
+        <a href="https://github.com/vicentebalderas/eventos_tec">here</a>.
+    institution: ITESM
+    tools: [Ruby, Rails]
+    date: January – May 2015
 
-- title: Eventos Tec 
-  source: event_promotion_website.html
-  image: tec_mty.jpg
-  description: An event promotion website developed for...
-  institution: ITESM
-  tools: [Ruby, Rails]
-  date: January – May 2015
+-   title: No Way Out
+    source: survival-sp-game.html
+    image: no_way_out.png
+    description: One of the courses given by my university is
+        Videogame Development (<a
+        href="https://serviciosva.itesm.mx/PlanesEstudio/Consultas/Materias/ConsultaMaterias.aspx?Form=Consultar_Materias_SinteticoIng&ClaveMateria=TC1021">TC1021</a>)
+        in which we learn more complex software
+        design concepts. For the final project, my team decided
+        to develop a single-player survival videogame using <code>JFrame</code>.
+        Our game featured auto-generated levels and environments to improve
+        player experience and replayablity. For this project I acted as team
+        leader, concept designer, and programmer; as such, I designed the
+        algorithms for level randomness, level generation, as well as the core
+        logic of the game. The game can be downloaded and played
+        <a href="https://github.com/Saturn086/Kye-Studios">here</a>.
+    institution: ITESM
+    tools: [Java]
+    date: April – May 2015
+
+-   title: Data analysis and visualization framework
+    source: data-framework.html
+    image: data_framework.png
+    description: This was the fifth homework for course
+        <a href="http://www.cs.cmu.edu/~charlie/courses/15-214/">15-214</a> and
+        the first to be developed in teams. The objective of this homework was
+        to learn and practice framework development.
+        My partner and I decided to create it
+        using <code>JFrame</code> and provide it with a user–friendly interface.
+        One of our core objectives was to make it general enough to support
+        a large array of user–made plugins with graph capabilities. As a result,
+        it was awarded best framework of the course of Spring 2016.
+    institution: CMU
+    tools: [Java]
+    date: March - April 2016
+
+-   title: Illuvë
+    source: illuve.html
+    image: illuve.gif
+    description: This project was developed for course
+        <a href="http://www.cs.cmu.edu/~./15-437/">15-437</a>
+        as the final project, designed to consolidate all the
+        material about web development learned during the semester.
+        Therefore, my partner and I decided to create a multiplayer online
+        tank videogame in which new users create an account and battle
+        against other players to win points and upgrade/customize their
+        tank. For a more realistic experience we used
+        <a href="http://box2d.org/">Box2d</a>
+        physics engine alongside the HTML5 canvas and JQuery. The game
+        was recognized as one of the best of Spring 2016 and is deployed on
+        <a href="https://rocky-lake-75049.herokuapp.com/illuve">Heroku</a>.
+    institution: CMU
+    tools: [Python, Django]
+    date: March - April 2016
