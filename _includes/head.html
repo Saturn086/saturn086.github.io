@@ -19,7 +19,11 @@
     type="text/css">
     <link href="{{site.baseurl}}/css/navbar.css" rel="stylesheet"
     type="text/css">
-
+    <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet"
+    type="text/css">
+    
+    {% if page.custom_css %}
     <link href="{{site.baseurl}}/css/{{page.custom_css}}" rel="stylesheet"
     type="text/css">
+    {% endif %}
 </head>
