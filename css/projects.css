@@ -20,6 +20,7 @@ img {
 
 .description-header {
     margin-top:-1.5em;
+    
 }
 
 .description-header hr {
@@ -28,7 +29,7 @@ img {
 }
 
 .description {
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
 }
 
 .description-image, .description-content {
