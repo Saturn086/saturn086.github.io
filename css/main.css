@@ -30,6 +30,10 @@ h3 {
         width: 100%;
         margin: 0px auto 0px auto;
     }
+    
+    .navbar {
+        height: 52px;
+    }
 }
 
 /* Desktops and laptops ----------- */
@@ -38,5 +42,9 @@ h3 {
         position: relative;
         width: 780px;
         margin: 0px auto 0px auto;
+    }
+    
+    .navbar {
+        height: 52px;
     }
 }
