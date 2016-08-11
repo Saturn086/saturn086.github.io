@@ -8,6 +8,12 @@ custom_css: education.css
 <h2>{{page.title}}</h2>
 <hr>
 
+<p style="margin-bottom: 2em">Here you can see all the relevant information
+about my academic formation. More specifically, the list of the schools I
+have attended to and additional information regarding my residence
+in each one.
+</p>
+
 {% for institution in site.data.institutions %}
     <div class="description">
         <div class="description-image">
@@ -28,10 +34,44 @@ custom_css: education.css
                 </span>
                 <hr>
             </div>
-            {{institution.description}}
+            <p>{{institution.description}}</p>
+                {% if institution.awards %}
+                    <p>Here are some awards and honors:</p>
+                {% endif %}
+                <ul>
+                    {% for award in institution.awards %}
+                    <li>{{ award.name }} &nbsp;
+                    {% if award.source %}
+                    <a href="{{site.baseurl}}/files/{{award.source}}">
+                    <span class="glyphicon glyphicon-file"
+                        aria-hidden="true"></span></a></li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
         </div>
     </div>
 {% endfor %}
+
+<p>I have also received other awards and diplomas from sources
+like online education platforms (eg. 
+<a href="https://www.coursera.org/">Coursera</a> or 
+<a href="https://www.edx.org/">edX</a>).
+Some of them are listed here.</p>
+
+<span class="additional-awards">
+<ul>
+    {% for award in site.data.awards %}
+    <li><span class="award-name">{{ award.name }}</span> &nbsp;
+            {% if award.source %}
+                <a href="{{site.baseurl}}/files/{{award.source}}">
+                <span class="glyphicon glyphicon-file"
+                aria-hidden="true"></span></a>
+            {% endif %}
+            <hr>
+            <span class="award-description">
+            {{ award.description }}
+            </span>
+        </li>
+    {% endfor %}
+</ul>
 </div>
-
-

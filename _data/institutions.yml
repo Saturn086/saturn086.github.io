@@ -3,22 +3,24 @@
     place: Monterrey, México
     period: Fall 2013 - Fall 2017
     description: no description to show
-    honors: [] 
     image: tec-logo.png
+    awards:
+        -   name: "High Academic Achievement Award (2014)"
     
 -   title: Carnegie Mellon University
     gpa: 4.0/4.0
     place: Pittsburgh, Pennsylvania
     period: Exchange Student for Spring and Fall 2016
     description: no description to show
-    honors: ["Named to the Dean's List of the School of Computer Science
-        (Spring 2016)"]
+    awards: 
+        -   name: "Named to the Dean's List of the School of
+                Computer Science (Spring 2016)"
+            source: deans_list_S2016.jpeg
     image: carnegie-logo.gif
 
--   title: Highschool - PMTR
+-   title: PMTR Highschool
     gpa: 9.8/10
     place: Salina Cruz, México
     period: Fall 2010 - Spring 2013
     description: no description to show
-    honors: []
     image: pmtr-logo.jpg

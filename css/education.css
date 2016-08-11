@@ -30,11 +30,12 @@ img {
 }
 
 .description {
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
     width: 100%;
+    display: inline-block;
 }
 
-.description-image, .description-content {
+.description-content, .description-image {
     display: inline-block;
 }
 
@@ -49,3 +50,17 @@ img {
     text-align: right;
 }
 
+.additional-awards li {
+    margin-top: 1.5em;
+}
+
+.additional-awards hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.award-description {
+    margin-top: -1em;
+    font-style: italic;
+    font-size: 11px;
+}
