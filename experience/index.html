@@ -1,6 +1,68 @@
 ---
 layout: default
 title: My Experience
+custom_css: experience.css
 ---
 
-Here is a little about my experience.
+<div class="custom-container">
+<h2>{{page.title}}</h2>
+<hr>
+I currently do not posses any work experience apart from
+charity work, once I get some it will be displayed here.
+<!--
+{% for workplace in site.data.workplaces %}
+    {% assign mod = forloop.index | modulo: 2 %}
+        {% if mod == 0 %}
+        <div class="left-description">
+            <span class="image">
+                <img src="{{site.baseurl}}/images/{{workplace.image}}">
+            </span>
+            
+            <span class="description">
+                <span class="header">
+                    <h3>
+                        {{workplace.title}}
+                    </h3>
+                    <span class="additional-info">
+                        <span class="organization">
+                            {{workplace.organization}}
+                        </span>
+                        <span class="period">
+                            {{workplace.period}}
+                        </span>
+                    </span>
+                    <hr>
+                </span>
+                {{workplace.summary}}
+            </span>
+        </div>
+        {% else %}
+        <div class="right-description">
+            <span class="description">
+                <span class="header">
+                    <h3>
+                        {{workplace.title}}
+                    </h3>
+                    <span class="additional-info">
+                        <span class="organization">
+                            {{workplace.organization}}
+                        </span>
+                        <span class="period">
+                            {{workplace.period}}
+                        </span>
+                    </span>
+                    <hr>
+                </span>
+                {{workplace.summary}}
+            </span>
+
+            <span class="image">
+                <img src="{{site.baseurl}}/images/{{workplace.image}}">
+            </span>
+        </div>
+        {% endif %}
+{% endfor %}
+-->
+</div>
+
+
