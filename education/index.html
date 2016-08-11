@@ -1,6 +1,37 @@
 ---
 layout: default
 title: Education
+custom_css: education.css
 ---
 
-These are the places where I have studied
+<div class="custom-container">
+<h2>{{page.title}}</h2>
+<hr>
+
+{% for institution in site.data.institutions %}
+    <div class="description">
+        <div class="description-image">
+            <img src="{{site.baseurl}}/images/{{institution.image}}"/></a>
+        </div>
+
+        <div class="description-content">
+            <div class="description-header">
+                <span class="institution-name">
+                    <h3>{{institution.title}}</h3>
+                </span>
+                <span class="additional-info">
+                    {{institution.place}}
+                    <br>
+                    Cumulative GPA of {{institution.gpa}}
+                    <br>
+                    {{institution.period}}
+                </span>
+                <hr>
+            </div>
+            {{institution.description}}
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+
