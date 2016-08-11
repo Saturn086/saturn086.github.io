@@ -2,7 +2,13 @@
     gpa: 98/100
     place: Monterrey, México
     period: Fall 2013 - Fall 2017
-    description: no description to show
+    description: "<p>I entered this university
+        persuing a Bachelor of Science
+        in Computer Science and Technology (<a href=
+        'https://serviciosva.itesm.mx/PlanesEstudio/Consultas/Planes/ConsultaPlanEstudio.aspx?form=PLANESTUDIO&contenido=caratula&modovista=area&Idioma=ING&claveprograma=BCT11&UnaCol=NO&VerReq=&VerEqui='>BCT</a>).
+        Upon entry I was accepted to the Honors program in which
+        I had to learn a  new language, german in my case, and was required
+        to take more advanced courses.</p>"
     image: tec-logo.png
     awards:
         -   name: "High Academic Achievement Award (2014)"
@@ -11,7 +17,33 @@
     gpa: 4.0/4.0
     place: Pittsburgh, Pennsylvania
     period: Exchange Student for Spring and Fall 2016
-    description: no description to show
+    description: "<p>As part of my academic formation at the ITESM Honors
+        program, I was required to study one year abroad. I decided
+        to apply to CMU due to its high rankings and reputation in fields
+        like Computer Science and Robotics.</p>
+        
+        <p>The courses I took during my stay were:<p>
+        
+        <ul>
+            <li>Spring:
+                <ul>
+                    <li>15-214: Principles of Software Construction:
+                        Objects, Design, and Concurrency</li>
+                    <li>15-292: Special Topic: History of Computing</li>
+                    <li>15-437: Web Application Development</li>
+                    <li>19-211: Ethics and Policy Issues in Computing</li>
+                </ul>
+            </li>
+            <li>Fall:
+                <ul>
+                    <li>15-213: Introduction to Computer Systems</li>
+                    <li>15-295: Competition Programming and Problem 
+                        Solving</li>
+                    <li>15-313: Foundations of Software Engineering</li>
+                    <li>15-388: Practical Data Science</li>
+                </ul>
+            </li>
+        </ul>"
     awards: 
         -   name: "Named to the Dean's List of the School of
                 Computer Science (Spring 2016)"
@@ -22,5 +54,7 @@
     gpa: 9.8/10
     place: Salina Cruz, México
     period: Fall 2010 - Spring 2013
-    description: no description to show
+    description: During my time here I was a member of the Color guard and
+        part of my time was spent helping my collegues in the computer and
+        circuits courses.
     image: pmtr-logo.jpg
