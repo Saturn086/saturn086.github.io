@@ -1,6 +1,27 @@
 ---
 layout: default
 title: My skills
+custom_css: skills.css
 ---
 
-These are my skills.
+<div class="custom-container">
+    <h2>{{page.title}}</h2>
+    <hr>
+    <div class="skill-category">
+        <h3>Programming Languages:</h3>
+        <div class="skill-line">
+            {% for language in site.data.languages %}
+            <img src="{{site.baseurl}}/images/{{language.image}}"
+            data-skillname="{{language.name}}" class="{{language.angle}}">
+            <br>
+            {% endfor %}
+            <div class="skill-explanations">
+            {% for language in site.data.languages %}
+                <div class="skill-explanation" id="{{language.name}}">
+                    {{language.description}}
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
