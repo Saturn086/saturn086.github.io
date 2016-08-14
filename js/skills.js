@@ -1,3 +1,5 @@
+var minWidth = 680;
+
 $(document).ready(function() {
     var width = $( window ).width();
                   
@@ -10,15 +12,37 @@ $(document).ready(function() {
     imgs.mouseover(function() {
         getSkillElement(this).addClass('active-skill');
                 var width = $( window ).width();
-                   if(width > 786) {
-                        width = 786;
+                   
+                   if(width <= minWidth) {
+                        $(".active-skill").css("height", "auto" );
+                        $(".skill-explanation").css("border-radius", "7%");
+                        $(".skill-explanation").css("padding-top", "1em");
+                        $(".skill-explanation").css("padding-bottom", "1em");
+                        $(".skill-explanation").css("margin-top", "" +
+                                                    (width/3 + 30) + "px");
+                        $(".skill-explanation").css("width", "80%");
+                        $(".skill-explanation").css("left", "30%");
+                   } else {
+                        $(".skill-explanation").css("height", "0");
+                        $(".skill-explanation").css("border-radius", "100%");
+                        $(".skill-explanation").css("padding", "0");
+                        $(".skill-explanation").css("padding-top", "2em");
+                        $(".skill-explanation").css("margin-top", "-11em");
+                        $(".skill-explanation").css("left", "50%");
+                   
+                        if(width > 786) {
+                            width = 786;
+                        }
+                   
+                        $(".active-skill").css("height", "" + (width/2.5) + "px" );
                    }
-                   $(".active-skill").css("height", "" + (width/2.5) + "px" );
     });
     
     imgs.mouseout(function() {
         getSkillElement(this).removeClass('active-skill');
     });
+                  
+    
                   
     if(width > 786) {
         $(".deg0").css("transform", "translate(" + (786/3-20) + "px, 0px)");
@@ -40,7 +64,7 @@ $(document).ready(function() {
         $(".skill-explanation").css("width", "" + (786/2.5) + "px");
         $(".skill-explanation").css("margin", "" + (-786/5) + "px");
                 
-
+        
                   
     } else {
         $(".deg0").css("transform", "translate(" + (width/3-20) + "px, 0px)");
@@ -64,7 +88,7 @@ $(document).ready(function() {
         $(".skill-explanation").css("margin", "" + (-width/5) + "px");
                 
     }
-});
+    });
 
 $(window).resize(function() {
     var width = $( window ).width();
