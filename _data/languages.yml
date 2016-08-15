@@ -1,39 +1,39 @@
 -   name: Java
-    image: java.png
+    image: java.svg
     description: The is the best.
     angle: deg0
 
 -   name: C
-    image: cplusplus.jpg
+    image: cplusplus.svg
     description: I know it.
     angle: deg45
 
 -   name: Python
-    image: python.png
+    image: python.svg
     description: only for web.
     angle: deg90
 
 -   name: Haskell
-    image: haskell.jpg
+    image: haskell.svg
     description: I am in love with it.
     angle: deg135
 
 -   name: Android
-    image: android.png
+    image: android.svg
     description: "android's description"
     angle: deg180
 
 -   name: Django
-    image: django.png
+    image: django.svg
     description: "django's description"
     angle: deg225
 
 -   name: Latex
-    image: illuve.gif
+    image: latex.svg
     description: "latex' description"
     angle: deg270
 
 -   name: Git
-    image: illuve.gif
+    image: git.svg
     description: "git git git!!!"
     angle: deg315
