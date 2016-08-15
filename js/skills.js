@@ -22,6 +22,9 @@ $(document).ready(function() {
                                                     (width/3 + 30) + "px");
                         $(".skill-explanation").css("width", "80%");
                         $(".skill-explanation").css("left", "30%");
+                   
+                        $("#footer-hr").css("margin-top", "" +
+                                            ($(".active-skill").height()) + "px");
                    } else {
                         $(".skill-explanation").css("height", "0");
                         $(".skill-explanation").css("border-radius", "100%");
@@ -29,6 +32,7 @@ $(document).ready(function() {
                         $(".skill-explanation").css("padding-top", "2em");
                         $(".skill-explanation").css("margin-top", "-11em");
                         $(".skill-explanation").css("left", "50%");
+                        $("#footer-hr").css("margin-top", "2em");
                    
                         if(width > 786) {
                             width = 786;

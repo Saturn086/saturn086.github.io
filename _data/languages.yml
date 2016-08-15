@@ -1,39 +1,135 @@
--   name: Java
+-   id: java
+    name: Java
     image: java.svg
-    description: The is the best.
+    description:
+        "Java is my language<br>
+        of choice and the one I am most<br>
+        comfortable with. I learned it at CMU<br>
+        and I am proud to say that it is the first<br>
+        language of which I have also learned its <br>
+        culture. I program in it using <em>Effective Java</em><br>
+        as a quality standard and I can work with it<br>
+        comfortably from Java 5 up to 8; being<br>
+        able to use features like Streams,<br>
+        Swing, and Lambdas."
     angle: deg0
 
--   name: C
+-   id: cplusplus
+    name: "C++"
     image: cplusplus.svg
-    description: I know it.
+    description:
+        "C++ was the first<br>
+        programming language I learned.<br>
+        I admire the power and versatility it gives<br>
+        to the programmer, letting him go from a<br>
+        high level of absraction to getting really close<br>
+        to system if needed. All my fundametal<br>
+        courses at ITESM were given in this<br>
+        language. However, I am  unfamiliar<br>
+        with the core concepts that it<br>
+        comes from, that is C."
     angle: deg45
 
--   name: Python
+-   id: python
+    name: Python
     image: python.svg
-    description: only for web.
+    description:
+        "I started learning Python<br>
+        for Web Development because I<br>
+        was required to use Django. I knew<br>
+        I had to gain proficiency in at least<br>
+        one scripting language, therefore I went<br>
+        deeper into Python. I like the speed in<br>
+        which I can program, the clutter free<br>
+        syntax, and the less rigid type system.<br>
+        I still have to learn the advanced<br>
+        features of the language, but more<br>
+        importantly its culture."
     angle: deg90
 
--   name: Haskell
+-   id: haskell
+    name: Haskell
     image: haskell.svg
-    description: I am in love with it.
+    description:
+        "Arriving at CMU<br>
+        I discovered functional<br>
+        programming. Talking to staff<br>
+        and frinends I got pointed to Haskell.<br>
+        I took advantage of my summer vacations to<br>
+        finally learn it, and I must confess it has<br>
+        truly been a delight. It is a beautiful<br>
+        language, well thought of, and very fun<br>
+        to use. I wouldn't be surprised if<br>
+        it becomes my favorite language<br>
+        in the future."
     angle: deg135
 
--   name: Android
+-   id: android
+    name: Android
     image: android.svg
-    description: "android's description"
+    description:
+        "One summer I decided<br>
+        to venture into mobile programming,<br>
+        during that time I had just Android devices<br>
+        and Windows at my disposal, so I chose<br>
+        Android. It has been a great experience and<br>
+        I have had a great time making applications<br>
+        for the OS. My major app was an Enigma<br>
+        Machine used to communicate secretly<br>
+        with my friends.I am still learning<br>
+        the advanced features and the<br>
+        culture of the OS."
     angle: deg180
 
--   name: Django
+-   id: django
+    name: Django
     image: django.svg
-    description: "django's description"
+    description:
+        "My web framework of<br>
+        choice, Django is where I<br>
+        learned the majority of the web<br>
+        concepts I know today. I use it for<br>
+        my more complex sites and thanks to it, I
+        learned Python, CSS, Javascript, and<br>
+        JQuery. I also learned how to develop<br>
+        robust and secure websites that<br>
+        defend against a wide range of<br>
+        attacks like: SQL Injection<br>
+        and Cross-Site Scripting."
     angle: deg225
 
--   name: Latex
+-   id: latex
+    name: Latex
     image: latex.svg
-    description: "latex' description"
+    description:
+        "Thanks to my time at<br>
+        CMU and to my friends that<br>
+        urged me to learn it, I know
+        <span class='latex'>L<sup>a</sup>T<sub>e</sub>X</span>.<br>
+        I am capable of writing general documents<br>
+        like articles and reports with ease, as well<br>
+        as more advanced documents like <b>my résumé</b><br>
+        with a little more effort. I do not know advanced <br>
+        features like package creation or drawing<br>
+        inside its environment. It is expected<br>
+        that all my written work will be done<br>
+        using this tool."
     angle: deg270
 
--   name: Git
+-   id: git
+    name: Git
     image: git.svg
-    description: "git git git!!!"
+    description:
+        "I love both Git and GitHub<br>
+        due to the facilities it gives me<br>
+        to have more control and security over<br>
+        my work, as well as to have better<br>
+        coordination between team members. All<br>
+        my major works are done using Git;<br>
+        when I am in a team, I usually use<br>
+        them alongside Trello and Slack for<br>
+        better team performance. There is<br>
+        much more to learn about this tools,<br>
+        and I am just starting to learn the<br>
+        advanced features."
     angle: deg315

@@ -8,16 +8,24 @@ custom_css: skills.css
     <h2>{{page.title}}</h2>
     <hr>
     <div class="skill-category">
-        <h3>Programming Languages:</h3>
-        <div class="skill-line">
+        <p>These are the programming languages, computer systems and tools
+        I am more proficient in. I do not fully dominate any of these, rather,
+        I am at least passed the basic level or I am willing to
+        take on the more advanced features that each one offers. Of course,
+        I am proficient in common tools like Microsoft Office and have some
+        experience in other items like Ruby, Rails or C#. </p>
+        
+        <p style="margin-bottom:2em;"><i>Hover over an icon to see a quick description.</i></p>
+        
+            <div class="skill-line">
             {% for language in site.data.languages %}
             <img src="{{site.baseurl}}/images/{{language.image}}"
-            data-skillname="{{language.name}}" class="{{language.angle}}">
+            data-skillname="{{language.id}}" class="{{language.angle}}">
             <br>
             {% endfor %}
             <div class="skill-explanations">
             {% for language in site.data.languages %}
-                <div class="skill-explanation" id="{{language.name}}">
+                <div class="skill-explanation" id="{{language.id}}">
                     {{language.description}}
                 </div>
             {% endfor %}
