@@ -9,7 +9,7 @@
         Upon entry I was accepted to the Honors program in which
         I had to learn a  new language, german in my case, and was required
         to take more advanced courses.</p>"
-    image: tec-logo.png
+    image: tec-logo.svg
     awards:
         -   name: "High Academic Achievement Award (2014)"
     
@@ -48,7 +48,7 @@
         -   name: "Named to the Dean's List of the School of
                 Computer Science (Spring 2016)"
             source: deans_list_S2016.jpeg
-    image: carnegie-logo.gif
+    image: cmu-logo.svg
 
 -   title: PMTR Highschool
     gpa: 9.8/10
