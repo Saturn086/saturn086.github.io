@@ -1,5 +1,6 @@
--   title: "Example"
-    organization: Nowhere
-    period: "A long time ago"
-    summary: "Nothing special about it"
-    image: example.png
+-   title: "Teaching Assistant, 15-214"
+    organization: "Carnegie Mellon University"
+    period: "August - December 2016"
+    summary: "Teaching Assistant for professors Charles Garrod and Joshua Bloch
+        in course 15-214, Principles of Software Construction."
+    image: cmu-logo.svg
