@@ -15,7 +15,7 @@
     angle: deg0
 
 -   id: cplusplus
-    name: "C++"
+    name: "C/C++"
     image: cplusplus.svg
     description:
         "C++ was the first<br>
@@ -25,9 +25,8 @@
         high level of absraction to getting really close<br>
         to system if needed. All my fundametal<br>
         courses at ITESM were given in this<br>
-        language. However, I am  unfamiliar<br>
-        with the core concepts that it<br>
-        comes from, that is C."
+        language. Taking course 15-213 at CMU I finally
+	learned C and system level programming with it." 
     angle: deg45
 
 -   id: python

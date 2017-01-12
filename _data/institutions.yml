@@ -1,7 +1,7 @@
--   title: Tecnológico de Monterrey
-    gpa: 98/100
-    place: Monterrey, México
-    period: Fall 2013 - Fall 2017
+-   title: "Tecnológico de Monterrey"
+    gpa: "98/100"
+    place: "Monterrey, México"
+    period: "Fall 2013 - Fall 2017"
     description: "<p>I entered this university
         persuing a Bachelor of Science
         in Computer Science and Technology (<a href=
@@ -9,18 +9,21 @@
         Upon entry I was accepted to the Honors program in which
         I had to learn a  new language, german in my case, and was required
         to take more advanced courses.</p>"
-    image: tec-logo.svg
+    image: "tec-logo.svg"
     awards:
         -   name: "High Academic Achievement Award (2014)"
     
--   title: Carnegie Mellon University
-    gpa: 4.0/4.0
-    place: Pittsburgh, Pennsylvania
-    period: Exchange Student for Spring and Fall 2016
+-   title: "Carnegie Mellon University"
+    gpa: "4.0/4.0"
+    place: "Pittsburgh, Pennsylvania"
+    period: "Exchange Student for Spring and Fall 2016"
     description: "<p>As part of my academic formation at the ITESM Honors
         program, I was required to study one year abroad. I decided
         to apply to CMU due to its high rankings and reputation in fields
-        like Computer Science and Robotics.</p>
+        like Computer Science and Robotics. After my first semester there,
+        I was honored to be offered the position of Teaching Assistant of
+        professors Charles Garrod and Joshua Bloch for course 15-214 during
+        Fall 2016.</p>
         
         <p>The courses I took during my stay were:<p>
         
@@ -37,22 +40,22 @@
             <li>Fall:
                 <ul>
                     <li>15-213: Introduction to Computer Systems</li>
-                    <li>15-295: Competition Programming and Problem 
-                        Solving</li>
+                    <li>79-312: Archaeology of Death</li>
                     <li>15-313: Foundations of Software Engineering</li>
                     <li>15-388: Practical Data Science</li>
                 </ul>
             </li>
         </ul>"
     awards: 
-        -   name: "Named to the Dean's List of the School of
-                Computer Science (Spring 2016)"
-            source: deans_list_S2016.jpeg
-    image: cmu-logo.svg
+        -   name: "Named to the Dean&#39;s List of the School of Computer Science (Spring 2016)"
+            source: "deans_list_S2016.jpeg"
+        -   name: "Named to the Dean&#39;s List of the School of Computer Science (Fall 2016)"
+            source: "deans_list_F2016.pdf"
+    image: "cmu-logo.svg"
 
--   title: PMTR Highschool
-    gpa: 9.8/10
-    place: Salina Cruz, México
+-   title: "PMTR Highschool"
+    gpa: "9.8/10"
+    place: "Salina Cruz, México"
     period: Fall 2010 - Spring 2013
     description: During my time here I was a member of the Color guard and
         part of my time was spent helping my collegues in the computer and
