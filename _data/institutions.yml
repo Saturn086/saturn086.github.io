@@ -1,7 +1,7 @@
 -   title: "Tecnológico de Monterrey"
     gpa: "98/100"
     place: "Monterrey, México"
-    period: "Fall 2013 - Fall 2017"
+    period: "Fall 2013 - Spring 2018"
     description: "<p>I entered this university
         persuing a Bachelor of Science
         in Computer Science and Technology (<a href=
@@ -56,8 +56,8 @@
 -   title: "PMTR Highschool"
     gpa: "9.8/10"
     place: "Salina Cruz, México"
-    period: Fall 2010 - Spring 2013
-    description: During my time here I was a member of the Color guard and
+    period: "Fall 2010 - Spring 2013"
+    description: "During my time here I was a member of the Color guard and
         part of my time was spent helping my collegues in the computer and
-        circuits courses.
-    image: pmtr-logo.jpg
+        circuits courses."
+    image: "pmtr-logo.jpg"

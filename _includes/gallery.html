@@ -1,0 +1,51 @@
+<div class="container">
+    <div id="main_area">
+        <!-- Slider -->
+        <div class="row">
+            <div class="col-xs-12" id="slider">
+                <!-- Top part of the slider -->
+                <div class="row">
+                    <div class="col-sm-8" id="carousel-bounding-box">
+                        <div class="carousel slide" id="myCarousel">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                {% for image in site.data.projects[{{page.id}}].screenshots %}
+                                {% assign loopindex = forloop.index0 %}
+                                {% if loopindex == 0 %}
+                                <div class="active item" data-slide-number="{{loopindex}}">
+                                    <img class="d-block img-fluid" src="{{site.baseurl}}/images/{{image}}">
+                                </div>
+                                {% else %}
+                                <div class="item" data-slide-number="{{loopindex}}">
+                                    <img class="d-block img-fluid" src="{{site.baseurl}}/images/{{image}}">
+                                </div>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+
+                            <!-- Carousel nav -->
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/Slider-->
+
+        <div class="row hidden-xs" id="slider-thumbs">
+            <!-- Bottom switcher of slider -->
+            <ul class="hide-bullets">
+                {% for image in site.data.projects[{{page.id}}].screenshots %}
+                {% assign loopindex = forloop.index0 %}
+                <li class="col-sm-2">
+                    <a class="thumbnail" id="carousel-selector-{{loopindex}}"><img src="{{site.baseurl}}/images/{{image}}"></a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

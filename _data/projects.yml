@@ -37,6 +37,11 @@
     institution: ITESM
     tools: [Java]
     date: April – May 2015
+    screenshots:
+        - no_way_out/image_1.png
+        - no_way_out/image_2.png
+        - no_way_out/image_3.png
+        - no_way_out/image_4.png
 
 -   title: Data analysis and visualization framework
     source: data-framework.html

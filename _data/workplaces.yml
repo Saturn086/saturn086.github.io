@@ -3,4 +3,11 @@
     period: "August - December 2016"
     summary: "Teaching Assistant for professors Charles Garrod and Joshua Bloch
         in course 15-214, Principles of Software Construction."
-    image: cmu-logo.svg
+    image: "cmu-logo.svg"
+
+-   title: "Research Assistant"
+    organization: "Tecnológico de Monterrey, campus Monterrey"
+    period: "June - July 2017"
+    summary: "Worked on Operations Research involving the Jobhop Scheduling Problem.
+        Specifically, I applied Data Science techniques to improve the Simulated Annealing meta-heuristic when
+        solving JSSP."

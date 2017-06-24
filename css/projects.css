@@ -45,3 +45,24 @@ img {
     float:right;
     font-style: italic;
 }
+
+/* Per project stylings */
+
+.carousel-inner > .item > img {
+    width:100%;
+    height:75%;
+
+    border-radius: 0%;
+    box-shadow: 0;
+}
+
+.thumbnail>img {
+    width:100%;
+    border-radius: 0%;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}

@@ -2,7 +2,50 @@
 layout: default
 title: No Way Out
 image: no_way_out.png 
-repository: www.github.com 
+repository: www.github.com
+custom_css: projects.css
+id: 1
 ---
 
-This page is still under development, sorry for the inconvenience :( .
+<div class="custom-container">
+    <h2>{{page.title}}</h2>
+    <hr>
+
+    <h3>Overview</h3>
+
+    <p>
+        Back in 2015 I took the video game development course as an introduction to Java through game
+        design and programming. This game was the final course project and was developed by a team of four,
+        including myself.
+    </p>
+    <p>
+        The game is set on the 1920's as you, an eager archaeologist, delve into a recently discovered tomb
+        just to find yourself trapped in a maze full of monsters. The main objective is to escape by either fighting or
+        evading monsters, it is a game of action-packed exploration.
+    </p>
+
+    <p>
+        The game has over 7,000 lines of code since it was developed from scratch using only an animation library. The
+        theme, gameplay and feel to it was inspired by Edmund McMillen and Florian Himsl's
+        <a href="http://store.steampowered.com/app/113200/The_Binding_of_Isaac/">The Binding of Isaac</a>.
+    </p>
+
+    <h3>Features</h3>
+
+    <ul>
+        <li>Build entirely on pure Java code, no specialized libraries were used.</li>
+        <li>Built using JFrames.</li>
+        <li>Features 3 types of monsters and one final boss, each with a unique attack pattern and behavior.</li>
+        <li>Levels are generated randomly using a maze creation algorithm.</li>
+        <li>The game comes with an original soundtrack and artwork.</li>
+    </ul>
+
+    <h3>Deployment</h3>
+
+    <p>
+        The game can be downloaded <a href="https://www.dropbox.com/s/7ngkas6assvdpox/no_way_out.jar?dl=0">here</a>. Sadly the source code
+        cannot be shared due to academic integrity constraints.
+    </p>
+
+    {% include gallery.html %}
+</div>
