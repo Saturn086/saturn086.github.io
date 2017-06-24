@@ -15,14 +15,15 @@ id: 3
 
     <p>
         When studying at CMU I took the web development course 15-437. I decided to make an online video game as
-        my final project because of how much I had enjoyed creating No Way Out. Online gaming was something new
+        my final project because of how much I had enjoyed creating
+        <a href="{{site.baseurl}}/projects/survival-sp-game.html">No Way Out</a>. Online gaming was something new
         and challenging to explore, so my teammate and I decided to build everything form the bottom up. Hence,
         the only library used was the Box2d physics engine to facilitate collision detection and movement.
     </p>
     <p>
-        The game was inspired on the common multi player 2d tank games available on the web. Our primary objective was
+        The game was inspired on the common multi player 2D tank games available on the web. Our primary objective was
         to enable player interaction through sole use of AJAX. Since we were also interested in making everything web
-        based, the html5 canvas was used to display the graphics.
+        based, the Html5 canvas was used to display the graphics.
     </p>
 
     <h3>Features</h3>
@@ -35,8 +36,12 @@ id: 3
         <li>The site makes use of the Django Channels system to enable chat among players.
             This feature is currently disabled, due to complications running on Heroku.</li>
         <li>The players can change or upgrade their tanks with experience points.</li>
-        <li>None of the artwork or sounds belong to us, all were taken from World of Tanks wallpapers.</li>
+        <li>None of the artwork or sounds belong to us, all were taken from
+            <a href="https://worldoftanks.com/">World of Tanks</a> wallpapers.
+        </li>
     </ul>
+
+    {% include gallery.html %}
 
     <h3>Deployment</h3>
 
@@ -44,6 +49,4 @@ id: 3
         The game can be played at this <a href="illuve.herokuapp.com">site</a>.
         Sadly the source code cannot be shared due to academic integrity constraints.
     </p>
-
-    {% include gallery.html %}
 </div>
