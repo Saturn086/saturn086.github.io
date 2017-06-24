@@ -36,16 +36,32 @@
             </div>
         </div><!--/Slider-->
 
-        <div class="row hidden-xs" id="slider-thumbs">
+        <div id="slider-thumbs">
             <!-- Bottom switcher of slider -->
-            <ul class="hide-bullets">
-                {% for image in site.data.projects[{{page.id}}].screenshots %}
+            {% for image in site.data.projects[{{page.id}}].screenshots %}
                 {% assign loopindex = forloop.index0 %}
-                <li class="col-sm-2">
-                    <a class="thumbnail" id="carousel-selector-{{loopindex}}"><img src="{{site.baseurl}}/images/{{image}}"></a>
-                </li>
-                {% endfor %}
-            </ul>
+                {% assign linebreak = forloop.index0 | modulo: 4 %}
+
+                {% if linebreak == 0 %}
+                    <div class="row hidden-xs" >
+                        <ul class="hide-bullets">
+                {% endif %}
+
+                        <li class="col-sm-2">
+                            <a class="thumbnail" id="carousel-selector-{{loopindex}}"><img src="{{site.baseurl}}/images/{{image}}"></a>
+                        </li>
+
+                {% if linebreak == 3 %}
+                        </ul>
+                    </div>
+                {% endif %}
+
+            {% endfor %}
+
+            {% if linebreak < 3 %}
+                        </ul>
+                    </div>
+            {% endif %}
         </div>
     </div>
 </div>

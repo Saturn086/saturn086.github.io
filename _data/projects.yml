@@ -58,6 +58,13 @@
     institution: CMU
     tools: [Java]
     date: March - April 2016
+    screenshots:
+        - data_framework/image_1.png
+        - data_framework/image_2.png
+        - data_framework/image_3.png
+        - data_framework/image_4.png
+        - data_framework/image_5.png
+        - data_framework/image_6.png
 
 -   title: Illuvë
     source: illuve.html
@@ -71,7 +78,7 @@
         against other players to win points and upgrade/customize their
         tank. For a more realistic experience we used
         <a href="http://box2d.org/">Box2d</a>
-        physics engine alongside the HTML5 canvas and JQuery. The game
+        physics engine alongside the HTML5 canvas, AJAX, and JQuery. The game
         was recognized as one of the best of Spring 2016 and is deployed on
         <a href="https://rocky-lake-75049.herokuapp.com/illuve">Heroku</a>.
     institution: CMU

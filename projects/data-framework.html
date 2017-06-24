@@ -3,6 +3,53 @@ layout: default
 title: Data Visualization Framework
 image: no_way_out.png
 repository: www.github.com
+custom_css: projects.css
+id: 2
 ---
 
-This page is still under development, sorry for the inconvenience :( .
+<div class="custom-container">
+    <h2>{{page.title}}</h2>
+    <hr>
+
+    <h3>Overview</h3>
+
+    <p>
+        When I was studying at CMU the 5th homework of 15-214 was to develop a data visualization
+        framework that was complex enough to support various fields, but modular enough to support easy plugin
+        integration. The framework was developed as a Java <code>JFrame</code> application.
+        It was developed with <a href="https://wchargin.github.io/">William Chargin</a>, my teammate.
+    </p>
+    <p>
+        The framework allows users to write data source plugins like .csv file readers, and data visualization plugins
+        like choropleth maps. The key aspect of our design was to be as flexible as possible, therefore our framework
+        can process all kinds of data that can be represented in a tabular form.
+    </p>
+
+    <h3>Features</h3>
+
+    <ul>
+        <li>Build entirely on pure Java code. The framework takes advantage of the new Java 8 features, like lambdas
+        and streams.</li>
+        <li>The framework comes with 3 data source plugins by default: a csv reader, a mathematical equation translator
+        (accepts only inputs in RPN format), and a k-dimensional randomness generator.</li>
+        <li>The framework comes with 4 data visualization plugins by default: bubble charts, histograms, raw data
+            visualization (like excel), and statistical analysis reports.</li>
+        <li>
+            Uses <a href="https://bl.ocks.org/mbostock/310c99e53880faec2434">
+            Bostock/Niccoli's Cubehelix Perceptual Rainbow</a> for color generation.
+        </li>
+        <li>
+            It was awarded best framework of the course of Spring 2016.
+        </li>
+    </ul>
+
+    <br>
+
+    {% include gallery.html %}
+
+    <h3>Deployment</h3>
+
+    <p>
+        Sadly the source code and executable files cannot be shared due to academic integrity constraints.
+    </p>
+</div>
