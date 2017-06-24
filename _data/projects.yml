@@ -38,7 +38,7 @@
     tools: [Java]
     date: April – May 2015
     screenshots:
-        - no_way_out/image_1.png
+        - no_way_out/image_2.png
         - no_way_out/image_2.png
         - no_way_out/image_3.png
         - no_way_out/image_4.png
@@ -77,3 +77,8 @@
     institution: CMU
     tools: [Python, Django]
     date: March - April 2016
+    screenshots:
+        - illuve/image_2.png
+        - illuve/image_2.png
+        - illuve/image_3.png
+        - illuve/image_4.png
