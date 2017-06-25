@@ -16,53 +16,53 @@ custom_css: skills.css
         <p style="margin-bottom:2em;"><i>Click on the more info button to see a more extensive description.</i></p>
 
         {% for language in site.data.languages %}
-            {% assign loopindex = forloop.index0 %}
-            {% assign linebreak = forloop.index0 | modulo: 2 %}
+        {% assign loopindex = forloop.index0 %}
+        {% assign linebreak = forloop.index0 | modulo: 2 %}
 
-                {% if linebreak == 0 %}
-                    <div class="card-deck">
-                {% endif %}
-                <section class="container">
-                    <div id="{{language.id}}">
-                        <figure class="front">
-                            <div class="card" style="width: 25rem;">
-
-                                <div class="card-block row">
-                                    <div class="col-md-6"><img src="{{site.baseurl}}/images/{{language.image}}"></div>
-                                    <div class="col-md-6">
-                                        <h2 class="card-title">{{language.name}}</h2>
-                                        <p class="card-text">{{language.main-text}}</p>
-                                        <a class="btn btn-primary {{language.id}}_flip">More info</a></div>
-
-                                </div>
-
-                                <div class="card-footer">
-                                    <small class="text-muted">Level: {{language.experience}}</small>
-                                    <small class="text-muted pull-right">Type: {{language.type}}</small>
-                                </div>
-                            </div>
-                        </figure>
-                        <figure class="back">
-                            <div class="card" style="width: 25rem;">
-                                <div class="card-block">
-                                    <p class="card-text pull-left">{{language.description}}
-                                    </p>
-                                    <a class="btn btn-primary {{language.id}}_flip pull-right">Back</a></div>
-                            </div>
-                        </figure>
-                    </div>
-                </section>
-
-                {% if linebreak == 1 %}
-                    </div>
-                {% endif %}
-
-            {% endfor %}
-
-            {% if linebreak < 2 %}
-                    </div>
+        {% if linebreak == 0 %}
+        <div class="card-deck">
             {% endif %}
+            <section class="container">
+                <div id="{{language.id}}">
+                    <figure class="front">
+                        <div class="card" style="width: 25rem;">
+
+                            <div class="card-block row">
+                                <div class="col-md-6"><img src="{{site.baseurl}}/images/{{language.image}}"></div>
+                                <div class="col-md-6">
+                                    <h2 class="card-title">{{language.name}}</h2>
+                                    <p class="card-text">{{language.main-text}}</p>
+                                    <a class="btn btn-primary {{language.id}}_flip">More info</a></div>
+
+                            </div>
+
+                            <div class="card-footer">
+                                <small class="text-muted">Level: {{language.experience}}</small>
+                                <small class="text-muted pull-right">Type: {{language.type}}</small>
+                            </div>
+                        </div>
+                    </figure>
+                    <figure class="back">
+                        <div class="card" style="width: 25rem;">
+                            <div class="card-block">
+                                <p class="card-text pull-left">{{language.description}}
+                                </p>
+                                <a class="btn btn-primary {{language.id}}_flip pull-right">Back</a></div>
+                        </div>
+                    </figure>
+                </div>
+            </section>
+
+            {% if linebreak == 1 %}
+        </div>
+        {% endif %}
+
+        {% endfor %}
+
+        {% if linebreak < 2 %}
     </div>
-Code for animations obtained from <a href="https://desandro.github.io/3dtransforms/">
+    {% endif %}
+
+    Code for animations obtained from <a href="https://desandro.github.io/3dtransforms/">
     <i>Intro to CSS 3D transforms</i></a> by David DeSandro.
 </div>
