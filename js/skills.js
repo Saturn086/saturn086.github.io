@@ -127,3 +127,21 @@ $(window).resize(function() {
                  
     }
 });
+
+var init = function () {
+    var skills = ['java', 'cplusplus', 'python', 'haskell', 'android', 'django', 'latex', 'git']
+    skills.forEach(function (element) {
+        var card = document.getElementById(element);
+
+        document.getElementsByClassName(element + '_flip')[0].addEventListener('click', function () {
+            card.toggleClassName('flipped');
+        }, false);
+        document.getElementsByClassName(element + '_flip')[1].addEventListener('click', function () {
+            card.toggleClassName('flipped');
+        }, false);
+
+
+    });
+};
+
+window.addEventListener('DOMContentLoaded', init, false);

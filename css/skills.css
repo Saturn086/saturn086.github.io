@@ -1,71 +1,6 @@
-.skill-explanation {
-    position: absolute;
-    visibility: hidden;
-    height: 0;
-    left: 50%;
-    top: 50%;
-    padding: 0;
-    border-radius: 100%;
-    text-align: center;
-    padding-top: 2em;
-}
-
-.active-skill {
-    visibility: visible;
-    background-color: #f2f2f2;
-    margin-bottom: 2em;
-}
-
-.skill-line {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 40em;
-}
-
-.skill-line img {
-    display: block;
-    position: absolute;
-    top: 50%; left: 50%;
-    width: 6em;
-    height: 6em;
-    margin: -3em;
-    opacity: 0.5;
-}
-
-.skill-line img:hover {
-    opacity: 1;
-}
-
 #footer-hr {
     margin-top: 2em;
 }
-
-.deg0 {
-}
-
-.deg45 {
-}
-
-.deg90 {
-}
-
-.deg135 {
-}
-
-.deg180 {
-}
-
-.deg225 {
-}
-
-.deg270 {
-}
-
-.deg315 {
-}
-
-
 
 .tex sub, .latex sub, .latex sup {
     text-transform: uppercase;
@@ -86,4 +21,53 @@
     vertical-align: -0.25em;
     margin-left: -0.25em;
     margin-right: 0.10em;
+}
+
+.container {
+  width: 200px;
+  height: 260px;
+  position: relative;
+  right: 15%;
+    margin-bottom: 5em;
+  perspective: 800px;
+}
+
+#java, #cplusplus, #python, #haskell, #android, #django, #latex, #git {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+#java figure, #cplusplus figure, #python figure, #haskell figure, #android figure, #django figure, #latex figure, #git figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+#java .back, #cplusplus .back, #python .back, #haskell .back, #android .back, #django .back, #latex .back, #git .back  {
+  transform: translateX( 100% ) rotateY( 180deg );
+}
+
+#java.flipped, #cplusplus.flipped, #python.flipped, #haskell.flipped, #android.flipped, #django.flipped, #latex.flipped, #git.flipped {
+  transform: rotateY( 180deg ) translateX( -100% );
+}
+
+.card-block span {
+    display: inline-block;
+}
+
+.card-block img {
+    width:100%;
+    border-radius: 0%;
+}
+
+.back-btn {
+    margin: 0;
+  display: block;
+  position: absolute;
 }

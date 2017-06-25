@@ -2,137 +2,165 @@
     name: Java
     image: java.svg
     description:
-        "<b>Expert</b><br>
-        Java is my language<br>
-        of choice and the one I am most<br>
-        comfortable with. I learned it at CMU<br>
-        and I am proud to say that it is the first<br>
-        language of which I have also learned its <br>
-        culture. I program in it using <em>Effective Java</em><br>
-        as a quality standard and I can work with it<br>
-        comfortably from Java 5 up to 8; being<br>
-        able to use features like Streams,<br>
-        Swing, and Lambdas."
-    angle: deg0
+        "Java is my language
+        of choice and the one I am most
+        comfortable with. I learned it at CMU
+        and I am proud to say that it is the first
+        language of which I have also learned its
+        culture. I program in it using <em>Effective Java</em>
+        as a quality standard and I can work with it
+        comfortably from Java 5 up to 8; being
+        able to use features like Streams,
+        Swing, and Lambdas.<br><br>"
+    experience: Expert
+    type: Language
+    main-text:
+        "Versions 5 to 8<br>
+        Puzzlers<br>
+        2 years"
 
 -   id: cplusplus
     name: "C/C++"
     image: cplusplus.svg
     description:
-        "<b>Intermediate</b><br>
-        C++ was the first<br>
-        programming language I learned.<br>
-        I admire the power and versatility it gives<br>
-        to the programmer, letting him go from a<br>
-        high level of absraction to getting really close<br>
-        to system if needed. All my fundametal<br>
-        courses at ITESM were given in this<br>
-        language. Taking course 15-213 at CMU let<br>
-	learn C and system level programming in<br>
-	which now I can work comfortably." 
-    angle: deg45
+        "C++ was the first
+        programming language I learned.
+        I admire the power and versatility it gives
+        to the programmer, letting him go from a
+        high level of abstraction to getting really close
+        to system if needed. All my fundamental
+        courses at ITESM were given in this
+        language. Taking course 15-213 at CMU let
+	    learn C and system level programming in
+	    which now I can work comfortably.<br><br>"
+    experience: Proficient
+    type: Language
+    main-text:
+        "POSIX Threads<br>
+        4 years<br>
+        <br>"
 
 -   id: python
     name: Python
     image: python.svg
     description:
-        "<b>Intermediate</b><br>
-        I started learning Python<br>
-        for Web Development because I<br>
-        was required to use Django. I knew<br>
-        I had to gain proficiency in at least<br>
-        one scripting language, therefore I went<br>
-        deeper into Python. I like the speed in which<br>
-        I can program, the clutter free syntax,<br>
-        and the less rigid type system. It is<br>
-        also my language of choice for Data<br>
-        Science which is of my main fields<br>
-        of interest.<br>"
-    angle: deg90
-
--   id: haskell
-    name: Haskell
-    image: haskell.svg
-    description:
-        "<b>Basic</b><br>
-        Arriving at CMU<br>
-        I discovered functional<br>
-        programming. Talking to staff<br>
-        and frinends I got pointed to Haskell.<br>
-        I took advantage of my summer vacations to<br>
-        finally learn it, and I must confess it has<br>
-        truly been a delight. It is a beautiful<br>
-        language, well thought of, and very fun<br>
-        to use. I wouldn't be surprised if<br>
-        it becomes my favorite language<br>
-        in the future."
-    angle: deg135
-
--   id: android
-    name: Android
-    image: android.svg
-    description:
-        "<b>Intermediate</b><br>
-        One summer I decided<br>
-        to venture into mobile programming,<br>
-        during that time I had just Android devices<br>
-        and Windows at my disposal, so I chose<br>
-        Android. My major app was an Enigma<br>
-        Machine used to communicate secretly<br>
-        with my friends.I am still learning<br>
-        the advanced features and the<br>
-        culture of the OS."
-    angle: deg180
+        "I started learning Python
+        for Web Development because I
+        was required to use Django. I knew
+        I had to gain proficiency in at least
+        one scripting language, therefore I went
+        deeper into Python. I like the speed in which
+        I can program, the clutter free syntax,
+        and the less rigid type system. It is
+        also my language of choice for Data
+        Science which is of my main fields
+        of interest.<br><br>"
+    experience: Proficient
+    type: Language
+    main-text:
+        "Versions 2.7 and 3.x<br>
+        Jupyter Notebooks<br>
+        1 year"
 
 -   id: django
     name: Django
     image: django.svg
     description:
-        "<b>Intermediate</b><br>
-        My web framework of<br>
-        choice, Django is where I<br>
-        learned the majority of the web<br>
-        concepts I know today. I use it for<br>
-        my more complex sites and thanks to it,<br>
-        I learned Python, CSS, Javascript, and<br>
-        JQuery. I also learned how to develop<br>
-        robust and secure websites that<br>
-        defend against a wide range of<br>
-        attacks like: SQL Injection<br>
-        and Cross-Site Scripting."
-    angle: deg225
+        "My web framework of
+        choice, Django is where I
+        learned the majority of the web
+        concepts I know today. I use it for
+        my more complex sites and thanks to it,
+        I learned Python, CSS, Javascript, AJAX, and
+        JQuery. I also learned how to develop
+        robust and secure websites that
+        defend against a wide range of
+        attacks like: SQL Injection
+        and Cross-Site Scripting.<br><br>"
+    experience: Proficient
+    type: Framework
+    main-text:
+        "OAuth framework<br>
+        Basic security<br>
+        1+ years"
 
 -   id: latex
     name: Latex
     image: latex.svg
     description:
-        "<b>Intermediate</b><br>
-        Thanks to my time at<br>
-        CMU and to my friends that<br>
+        "Thanks to my time at
+        CMU and to my friends that
         urged me to learn it, I know
-        <span class='latex'>L<sup>a</sup>T<sub>e</sub>X</span>.<br>
-        I am capable of writing general documents<br>
-        like articles and reports with ease, as well<br>
-        as more advanced documents like <b>my résumé</b><br>
-        with a little more effort. I do not know advanced <br>
-        features like package creation or drawing<br>
-        inside its environment. It is expected<br>
-        that all my written work will be done<br>
-        using this tool."
-    angle: deg270
+        <span class='latex'>L<sup>a</sup>T<sub>e</sub>X</span>.
+        I am capable of writing general documents
+        like articles and reports with ease, as well
+        as more advanced documents like <b>my résumé</b>.
+        I have recently begun developing packages for more
+        complex typesetting as well as using it regularly for
+        all my written work."
+    experience: Proficient
+    type: Language
+    main-text:
+        "Package Development<br>
+        Everyday use<br>
+        1+ year"
 
 -   id: git
     name: Git
     image: git.svg
     description:
-        "<b>Intermediate</b><br>
-        I love both Git and GitHub<br>
-        due to the facilities it gives me<br>
-        to have more control and security over<br>
-        my work, as well as to have better<br>
-        coordination between team members. All<br>
-        my major works are done using Git;<br>
-        when I am in a team, I usually use<br>
-        them alongside Trello and Slack for<br>
-        better team performance."
-    angle: deg315
+        "I love both Git and GitHub due to the facilities it gives me
+        to have more control and security over
+        my work, as well as to have better
+        coordination between team members. All
+        my major works are done using Git;
+        when I am in a team, I usually use
+        them alongside Trello and Slack for
+        better team performance.<br><br>I feel most comfortable using the Bash version."
+    experience: Proficient
+    type: API
+    main-text:
+        "Everyday use<br>
+        1+ year<br>
+        <br>"
+
+-   id: haskell
+    name: Haskell
+    image: haskell.svg
+    description:
+        "Arriving at CMU
+        I discovered functional
+        programming. Talking to staff
+        and friends I got pointed to Haskell.
+        I took advantage of my summer vacations to
+        finally learn it, and I must confess it has
+        truly been a delight. It is a beautiful
+        language, well thought of, and very fun
+        to use. I wouldn't be surprised if
+        it becomes my favorite language
+        in the future."
+    experience: Basic
+    type: Language
+    main-text:
+      "<br>
+      <br>
+      <br>"
+
+-   id: android
+    name: Android
+    image: android.svg
+    description:
+        "One summer I decided
+        to venture into mobile programming,
+        during that time I had just Android devices
+        and Windows at my disposal, so I chose
+        Android. My major app was an Enigma
+        Machine used to communicate secretly
+        with my friends. However, I am only capable
+        of developing simple apps.<br><br><br>"
+    experience: Basic
+    type: Operating System
+    main-text:
+      "Certified by Coursera<br>
+      <br>
+      <br>"
