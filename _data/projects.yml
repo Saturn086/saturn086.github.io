@@ -1,7 +1,13 @@
 -   title: "Tiro Parabólico"
     source: tiro-parabolico.html
     image: tec_mty.jpg
-    description: blah, blah, blah
+    description: "As the final project for the mobile development course at ITESM (<a href='http://serviciosva.itesm.mx/PlanesEstudio/Consultas/Materias/ConsultaMaterias.aspx?Form=Consultar_Materias_SinteticoIng&ClaveMateria=TC2024'>TC2024</a>),
+        my team and I chose to develop an app for the university's High School program.
+        Its main focus was to help students learn about the principles of
+        motion in two planes through example. The app lets them configure the parameters of the simulation and graph the
+        results, enabling experimentation and learning in an interactive way.
+        The app makes use of Philipp Jahoda's Charts <a href='https://github.com/danielgindi/Charts'>API</a> and is
+        currently being processed to be uploaded to the app store."
     institution: ITESM
     tools: [Swift, iOS]
     date: March – June 2017
@@ -61,18 +67,18 @@
 -   title: Illuvë
     source: illuve.html
     image: illuve.gif
-    description: This project was developed for course
-        <a href="http://www.cs.cmu.edu/~./15-437/">15-437</a>
+    description: "This project was developed for course
+        <a href='http://www.cs.cmu.edu/~./15-437/'>15-437</a>
         as the final project, designed to consolidate all the
         material about web development learned during the semester.
-        Therefore, my partner and I decided to create a multiplayer online
-        tank videogame in which new users create an account and battle
+        Therefore, my partner and I decided to create a multi player online
+        tank video game in which new users create an account and battle
         against other players to win points and upgrade/customize their
         tank. For a more realistic experience we used
-        <a href="http://box2d.org/">Box2d</a>
+        <a href='http://box2d.org/'>Box2d</a>
         physics engine alongside the HTML5 canvas, AJAX, and JQuery. The game
         was recognized as one of the best of Spring 2016 and is deployed on
-        <a href="https://rocky-lake-75049.herokuapp.com/illuve">Heroku</a>.
+        <a href='https://illuve.herokuapp.com/'>Heroku</a>."
     institution: CMU
     tools: [Python, Django]
     date: March - April 2016
