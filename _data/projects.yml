@@ -1,23 +1,15 @@
--   title: Eventos Tec
-    source: event-promotion-website.html
+-   title: "Tiro Parabólico"
+    source: tiro-parabolico.html
     image: tec_mty.jpg
-    description: This project involved the development
-        of an event promotion website for the database course
-        (<a
-        href="https://serviciosva.itesm.mx/PlanesEstudio/Consultas/Materias/ConsultaMaterias.aspx?Form=Consultar_Materias_SinteticoIng&ClaveMateria=TC1020">TC1020</a>).
-        In order to raise the level of difficulty,
-        the professor chose my team to collaborate with a
-        team from 9<sup>th</sup> semester in their final project.
-        Our task was to develop the internal structure and database
-        of their website. Therefore, I took
-        on the role of Scrum Master, programmer and
-        quality manager for half of the team.
-        The website is currently running on one of the
-        university's servers and the source code can be viewed
-        <a href="https://github.com/vicentebalderas/eventos_tec">here</a>.
+    description: blah, blah, blah
     institution: ITESM
-    tools: [Ruby, Rails]
-    date: January – May 2015
+    tools: [Swift, iOS]
+    date: March – June 2017
+    screenshots:
+            - no_way_out/image_2.png
+            - no_way_out/image_2.png
+            - no_way_out/image_3.png
+            - no_way_out/image_4.png
 
 -   title: No Way Out
     source: survival-sp-game.html

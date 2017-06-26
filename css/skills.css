@@ -32,7 +32,7 @@
   perspective: 800px;
 }
 
-#java, #cplusplus, #python, #haskell, #android, #django, #latex, #git {
+#java, #cplusplus, #python, #haskell, #android, #django, #latex, #git, #ios {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -40,7 +40,8 @@
   transition: transform 1s;
 }
 
-#java figure, #cplusplus figure, #python figure, #haskell figure, #android figure, #django figure, #latex figure, #git figure {
+#java figure, #cplusplus figure, #python figure, #haskell figure, #android figure, #django figure, #latex figure, #git figure,
+#ios figure{
   margin: 0;
   display: block;
   position: absolute;
@@ -49,11 +50,13 @@
   backface-visibility: hidden;
 }
 
-#java .back, #cplusplus .back, #python .back, #haskell .back, #android .back, #django .back, #latex .back, #git .back  {
+#java .back, #cplusplus .back, #python .back, #haskell .back, #android .back, #django .back, #latex .back, #git .back,
+#ios .back{
   transform: translateX( 100% ) rotateY( 180deg );
 }
 
-#java.flipped, #cplusplus.flipped, #python.flipped, #haskell.flipped, #android.flipped, #django.flipped, #latex.flipped, #git.flipped {
+#java.flipped, #cplusplus.flipped, #python.flipped, #haskell.flipped, #android.flipped, #django.flipped, #latex.flipped, #git.flipped,
+#ios.flipped{
   transform: rotateY( 180deg ) translateX( -100% );
 }
 

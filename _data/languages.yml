@@ -124,28 +124,6 @@
         1+ year<br>
         <br>"
 
--   id: haskell
-    name: Haskell
-    image: haskell.svg
-    description:
-        "Arriving at CMU
-        I discovered functional
-        programming. Talking to staff
-        and friends I got pointed to Haskell.
-        I took advantage of my summer vacations to
-        finally learn it, and I must confess it has
-        truly been a delight. It is a beautiful
-        language, well thought of, and very fun
-        to use. I wouldn't be surprised if
-        it becomes my favorite language
-        in the future."
-    experience: Basic
-    type: Language
-    main-text:
-      "<br>
-      <br>
-      <br>"
-
 -   id: android
     name: Android
     image: android.svg
@@ -162,5 +140,45 @@
     type: Operating System
     main-text:
       "Certified by Coursera<br>
+      <br>
+      <br>"
+
+-   id: ios
+    name: iOS
+    image: apple.svg
+    description:
+        "I took the mobile development course at
+        ITESM. Its purpose was to learn the Swift
+        programming language alongside iOS platform.
+        With the skills learned at the course I am capable of
+        doing relatively complex apps that comply with Apple
+        standards. I am in the process of uploading a physics simulator
+        app for High School students to the store.<br><br>"
+    experience: Basic
+    type: Operating System
+    main-text:
+      "<br>
+      <br>
+      <br>"
+
+-   id: haskell
+    name: Haskell
+    image: haskell.svg
+    description:
+        "Arriving at CMU
+        I discovered functional
+        programming. Talking to staff
+        and friends I got pointed to Haskell.
+        I took advantage of my summer vacations to
+        finally learn it, and I must confess it has
+        truly been a delight. It is a beautiful
+        language, well thought of, and very fun
+        to use. I wouldn't be surprised if
+        it becomes my favorite language
+        in the future.<br><br>"
+    experience: Basic
+    type: Language
+    main-text:
+      "<br>
       <br>
       <br>"

@@ -129,7 +129,7 @@ $(window).resize(function() {
 });
 
 var init = function () {
-    var skills = ['java', 'cplusplus', 'python', 'haskell', 'android', 'django', 'latex', 'git']
+    var skills = ['java', 'cplusplus', 'python', 'haskell', 'android', 'django', 'latex', 'git', 'ios']
     skills.forEach(function (element) {
         var card = document.getElementById(element);
 
