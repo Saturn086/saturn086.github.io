@@ -1,6 +1,6 @@
 -   title: "Tiro Parabólico"
     source: tiro-parabolico.html
-    image: tec_mty.jpg
+    image: tiro_1.png
     description: "As the final project for the mobile development course at ITESM (<a href='http://serviciosva.itesm.mx/PlanesEstudio/Consultas/Materias/ConsultaMaterias.aspx?Form=Consultar_Materias_SinteticoIng&ClaveMateria=TC2024'>TC2024</a>),
         my team and I chose to develop an app for the university's High School program.
         Its main focus was to help students learn about the principles of
@@ -10,7 +10,7 @@
         currently being processed to be uploaded to the app store."
     institution: ITESM
     tools: [Swift, iOS]
-    date: March – June 2017
+    date: "March – June 2017"
     screenshots:
             - no_way_out/image_2.png
             - no_way_out/image_2.png
@@ -34,7 +34,7 @@
         <a href="https://github.com/Saturn086/Kye-Studios">here</a>.
     institution: ITESM
     tools: [Java]
-    date: April – May 2015
+    date: "April – May 2015"
     screenshots:
         - no_way_out/image_2.png
         - no_way_out/image_2.png
@@ -55,7 +55,7 @@
         it was awarded best framework of the course of Spring 2016.
     institution: CMU
     tools: [Java]
-    date: March - April 2016
+    date: "March - April 2016"
     screenshots:
         - data_framework/image_1.png
         - data_framework/image_2.png
@@ -81,7 +81,7 @@
         <a href='https://illuve.herokuapp.com/'>Heroku</a>."
     institution: CMU
     tools: [Python, Django]
-    date: March - April 2016
+    date: "March - April 2016"
     screenshots:
         - illuve/image_1.png
         - illuve/image_2.png
