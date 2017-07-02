@@ -8,7 +8,7 @@
 -   title: "Research Assistant"
     organization: "Tecnológico de Monterrey, campus Monterrey"
     period: "June - July 2017"
-    summary: "Worked on Operations Research involving the Jobhop Scheduling Problem.
+    summary: "Worked on Operations Research involving the Jobshop Scheduling Problem.
         Specifically, I applied Data Science techniques to improve the Simulated Annealing meta-heuristic when
         solving JSSP."
     image: "tec-logo.svg"
