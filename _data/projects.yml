@@ -12,10 +12,10 @@
     tools: [Swift, iOS]
     date: "March – June 2017"
     screenshots:
-            - no_way_out/image_2.png
-            - no_way_out/image_2.png
-            - no_way_out/image_3.png
-            - no_way_out/image_4.png
+            - tiro_parabolico/image_1.png
+            - tiro_parabolico/image_2.png
+            - tiro_parabolico/image_3.png
+            - tiro_parabolico/image_4.png
 
 -   title: No Way Out
     source: survival-sp-game.html
@@ -36,7 +36,7 @@
     tools: [Java]
     date: "April – May 2015"
     screenshots:
-        - no_way_out/image_2.png
+        - no_way_out/image_1.png
         - no_way_out/image_2.png
         - no_way_out/image_3.png
         - no_way_out/image_4.png
