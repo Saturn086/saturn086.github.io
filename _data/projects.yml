@@ -87,3 +87,18 @@
         - illuve/image_2.png
         - illuve/image_3.png
         - illuve/image_4.png
+
+-   title: "Primeros Auxilios"
+    source: primeros_auxilios/index.html
+    image: primeros_auxilios/logo.png
+    description: "This project was developed for <i>Semana i</i>,
+	a special week of Tec of Monterrey, much like a Hackathon
+	where we must build, develop, or do something new as a project.
+	I was part of the group that would work with the IBM Watson API.
+	My team and I made a mobile app for first aid assistance (in spanish)
+	that uses IBM Watson to communicate more effectively with the user.
+	<p>
+	The documentation for are project can be found <a href='{{baseurl}}/projects/primeros_auxilios/documentation/'>here</a>."
+    institution: "Tec de Monterrey"
+    tools: [IBM Watson, Android, Java]
+    date: "September 2017"
