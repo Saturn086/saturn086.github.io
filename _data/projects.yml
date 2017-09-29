@@ -98,7 +98,7 @@
 	My team and I made a mobile app for first aid assistance (in spanish)
 	that uses IBM Watson to communicate more effectively with the user.
 	<p>
-	The documentation for are project can be found <a href='{{baseurl}}/projects/primeros_auxilios/documentation/'>here</a>."
+	The documentation for are project can be found <a href='{{site.baseurl}}/projects/primeros_auxilios/documentation/'>here</a>."
     institution: "Tec de Monterrey"
     tools: [IBM Watson, Android, Java]
     date: "September 2017"
