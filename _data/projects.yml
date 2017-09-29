@@ -89,8 +89,8 @@
         - illuve/image_4.png
 
 -   title: "Primeros Auxilios"
-    source: primeros_auxilios/index.html
-    image: primeros_auxilios/logo.png
+    source: primeros_auxilios/
+    image: "primeros_auxilios/logo.png"
     description: 'This project was developed for <i>Semana i</i>,
 	a special week of Tec of Monterrey, much like a Hackathon
 	where we must build, develop, or do something new as a project.
